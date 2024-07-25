@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat-Regular'),
+        url('./assets/font/Montserrat-Regular.ttf') format('truetype');
+}
+
+.Montserrat-Regular {
+    font-family: Montserrat-Regular, Arial, serif;
+}
+
+.button-black {
+    @apply text-xs sm:text-sm md:text-base bg-gray-normal hover:bg-transparent duration-1000 border-2 border-gray-normal text-white hover:text-gray-normal px-5 py-1;
+}
